@@ -1,0 +1,82 @@
+{
+  "question1": {
+    "question": "What is the name of the Kubernetes API object that represents a group of containers?",
+    "choices": {
+      "A": "Pod",
+      "B": "Service",
+      "C": "Deployment",
+      "D": "ReplicaSet"
+    },
+    "answer": "A"
+  },
+  "question2": {
+    "question": "Which Kubernetes component is responsible for maintaining the desired state of the cluster?",
+    "choices": {
+      "A": "Scheduler",
+      "B": "Controller",
+      "C": "API Server",
+      "D": "etcd"
+    },
+    "answer": "B"
+  },
+  "question3": {
+    "question": "What is the default package manager for Kubernetes?",
+    "choices": {
+      "A": "Helm",
+      "B": "Kustomize",
+      "C": "Kubectl",
+      "D": "Minikube"
+    },
+    "answer": "A"
+  },
+  "question4": {
+    "question": "What command is used to view the status of Kubernetes resources?",
+    "choices": {
+      "A": "kubectl get",
+      "B": "kubectl describe",
+      "C": "kubectl apply",
+      "D": "kubectl delete"
+    },
+    "answer": "A"
+  },
+  "question5": {
+    "question": "Which Kubernetes object is used to isolate resources?",
+    "choices": {
+      "A": "Namespace",
+      "B": "Pod",
+      "C": "Service",
+      "D": "ConfigMap"
+    },
+    "answer": "A"
+  },
+  "question6": {
+    "question": "Which of the following are Kubernetes controllers? (Select all that apply)",
+    "choices": {
+      "A": "ReplicaSet",
+      "B": "DaemonSet",
+      "C": "Pod",
+      "D": "Service"
+    },
+    "answer": ["A", "B"]
+  },
+  "question7": {
+    "question": "Which commands can be used to manage Kubernetes resources? (Select all that apply)",
+    "choices": {
+      "A": "kubectl apply",
+      "B": "kubectl get",
+      "C": "kubectl logs",
+      "D": "kubectl config"
+    },
+    "answer": ["A", "B", "C"]
+  },
+  "question8": {
+    "question": "Which Kubernetes objects are used for workload management? (Select all that apply)",
+    "choices": {
+      "A": "Deployment",
+      "B": "Service",
+      "C": "StatefulSet",
+      "D": "ConfigMap"
+    },
+    "answer": ["A", "C"]
+  }
+}
